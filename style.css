@@ -156,3 +156,51 @@ main h3{
 .social-icon1 a:hover{
     color:#05f761
 }
+.projects{
+    background-color:#ebf7e2;
+}
+.project.content {
+    margin-top: 30px;
+}
+.project-card{
+    background-color:#D4EF31;
+    border:5px solid #05f761;
+    min-height:10em;
+    width:20em;
+    overflow:hidden;
+    border-radius:10px;
+    margin:20px;
+    transition:0.7s ease;
+}
+.project-card:hover{
+    transform:scale(1.1);
+}
+.project-card:hover .project-image{
+    opacity:0.9;
+}
+.project-image img{
+    width:100%;
+}
+
+.project-info{
+    padding:1em;
+}
+.project-category{
+    font-size:0.8em;
+    color:black;
+
+}
+.project-title{
+    display:flex;
+    justify-content:space-between;
+    text-transform:uppercase;
+    font-weight:800;
+    margin-top:10px;
+}
+.more-details{
+    text-decoration:none;
+    color:#008080;
+}
+.more-details:hover{
+    color:aquamarine;
+}
